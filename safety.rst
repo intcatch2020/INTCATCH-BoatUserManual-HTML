@@ -14,8 +14,7 @@ With proper handling and avoiding abuse, the LiPo batteries are
 not safety hazards. However, if they are mishandled or abused,
 they can create fire hazards.
 
-For a comprehensive guide on LiPo batteries, read
-https://rogershobbycenter.com/lipoguide/
+For a comprehensive guide on LiPo batteries, read https://rogershobbycenter.com/lipoguide/.
 
 A LiPo has five important voltage levels:
 
