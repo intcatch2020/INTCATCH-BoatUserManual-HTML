@@ -45,7 +45,8 @@ and flowing water is not appropriate for a first attempt.
 Until you can pilot the boat through a smooth figure-eight shape,
 you should avoid flowing water!
 
-
+Review the :ref:`timeline of a campaign<timeline>` until you know what software package
+to use at the appropriate time.
 
 :ref:`Back to the index <index>`
 

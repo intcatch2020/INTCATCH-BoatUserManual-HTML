@@ -22,9 +22,10 @@ Table of Contents
    :maxdepth: 1
 
    safety
-   quick_start
+   quick_start   
    system_overview
    equipment
+   timeline
    before_deploying
    boat_setup
    controlling_the_boat
