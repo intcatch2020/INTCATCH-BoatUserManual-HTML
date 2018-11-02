@@ -3,6 +3,11 @@
 Data Storage and Visualization
 ==============================
 
+.. image:: _static/images/overview/overview_diagram.png
+   :alt: Data collection and storage diagram
+   :height: 480px
+   :align: center 
+
 There are multiple storage locations for the data collected
 by the boat during a deployment.
 
@@ -21,7 +26,9 @@ a time history of data from various sensors.
 
 There is not a way to manually access location (latitude/longitude)
 data, but comma-delimited (csv) files of time-stamped sensor data 
-can be exported directly.
+can be exported directly. Virtual sensors that track the latitude and
+longitude could be used, but these would have their own independent timestamps.
+
 
 WAIS
 ----
@@ -29,7 +36,7 @@ WAIS
 The WAIS database queries (requests) data from BlueGate, 
 requiring the following information:
 
-* Sensor Group: represents a BlueBox and the sensors attached to it. The sensor group's username and password are the BlueGate web interface username and password.
+* Station: represents a BlueBox and the sensors attached to it. The station's username and password are the BlueGate web interface username and password.
 * Catchment: the body (or bodies) of water where data is collected
 * Campaign: a window of time that defines which data will be requested from BlueGate
 
