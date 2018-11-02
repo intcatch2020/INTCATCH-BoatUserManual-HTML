@@ -49,17 +49,28 @@ General electrical circuit handling
 The boat's battery is capable of a very large output current,
 especially in the case of an electrical short.
 
-Avoid directly touching any circuit boards while the battery 
-is connected to the boat.
-Unless otherwise noted, only *connectors*, *buttons*, and *switches* 
+Avoid directly touching any circuit boards while the battery is connected to the boat.
+Unless otherwise noted, only *cables*, *connectors*, *buttons*, and *switches* 
 are meant to be handled.
 
-The XT90 connection between the battery and the 
-:ref:`cable harness<cable_harness_and_breaker>`
-has exhibited a vestigial voltage that lasts for some time
-after disconnecting the battery.
-When handling this connector (e.g. plugging and unplugging a battery)
-make sure you only touch the yellow plastic.
+
+Voltage regulator residual charge
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The :ref:`BlueBox<bluebox>` uses a :ref:`24 V voltage regulator<bluebox_power>`
+to convert from the battery's voltage to a steady 24 V. The voltage regulator
+can hold a residual charge. Even after the battery has been unplugged, the
+:ref:`cable's<cable_harness_and_breaker>` XT90 connector (the large yellow connector)
+can produce a significant electrical shock.
+
+When unplugging the battery, ensure that the two metal leads inside the XT90 connector 
+do not come into contact with anything conductive. This is easy - just set the
+cable down gently into the rear compartment after unplugging the battery.
+
+The residual charge will slowly drain away on its own, but this process can be sped up.
+To quickly drain the charge, after the battery is disconnected you can turn on the
+:ref:`BlueBox power switch<bluebox_power>` for 5 seconds, then turn it off. 
+This will consume the vast majority of the residual charge.
 
 
 Water in the internal compartments
@@ -70,7 +81,7 @@ system. Water entering the compartments, especially the front
 compartment, can cause electrical shorts between any of the
 electronics installed there.
 
-It is quite common to have a small amount of water in the rear
+It is common to have a small amount of water in the rear
 compartment, but the front compartment should remain dry.
 If you see water in the front compartment, immediately shut off
 the boat, remove the battery, and dry the components!
