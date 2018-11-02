@@ -103,7 +103,7 @@ Lithium Polymer (LiPo) battery
 
 The boat can draw over 60 amps of current, so it can be very power hungry.
 A LiPo battery provides the energy density and maximum current draw necessary to operate the boat.
-The battery is held in the front compartment.
+The battery is held in the rear compartment.
 
 The boat can accept both 3S (3 cells) and 4S (4 cells), 
 as long as it uses an XT-90 connector.
@@ -111,6 +111,11 @@ as long as it uses an XT-90 connector.
 The most commonly used battery is the Turnigy Multistar 4S, 16 Ah, 10C battery.
 
 .. image:: _static/images/battery.jpg
+   :alt: battery
+   :height: 480px
+   :align: center   
+
+.. image:: _static/images/battery_in_rear.jpg
    :alt: battery
    :height: 480px
    :align: center   
@@ -281,7 +286,7 @@ the phone and tablet to connect.
 
 The most commonly used router is the Ubiquiti bullet.
 
-.. image:: _static/images/router.jpg
+.. image:: _static/images/router_on_lid.jpg
    :alt: WiFi router
    :height: 480px
    :align: center   
