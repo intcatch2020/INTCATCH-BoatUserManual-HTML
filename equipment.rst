@@ -403,6 +403,13 @@ This circuit is integrated into the cable connecting the receiver to the arduino
 BlueBox and Sensors
 -------------------
 
+* :ref:`bluebox`
+* :ref:`bluebox_power`
+* :ref:`bluebox_db9`
+* :ref:`bluebox_sensors`
+* :ref:`bluebox_gps`
+
+
 .. _bluebox:
 
 BlueBox
@@ -445,11 +452,47 @@ interface with the BlueBox circuit board.
 .. image:: _static/images/bluebox_switch_and_regulator.jpg
    :alt: BlueBox switch and regulator
    :height: 480px
-   :align: center   
+   :align: center
 
 :ref:`Top of this page <equipment>`
 
 :ref:`Back to the index <index>`
+
+.. _bluebox_db9:
+
+BlueBox DB9 USB cable and inversion circuit
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The BlueBox sends serial messages to the boat's 
+:ref:`arduino<eboard_and_arduino>` via the large grey USB cable.
+The large multi-pin plug on the other end of the USB cable is
+called a "DB9" connector. 
+
+.. image:: _static/images/grey_DB9_USB_cable.jpg
+   :alt: DB9 USB cable
+   :height: 480px
+   :align: center
+
+The signal that arduino uses for serial is not exactly the same as
+the one used by the BlueBox. To address this, there is a small
+circuit board that "translates" for the devices so they can exchange
+serial messages. The circuit sits in between the grey USB cable
+and the arduino.
+
+The cable pictured here is the style required for the old e-board,
+requiring an external loopback cable. The new e-board uses a much
+smaller cable that is mounted on the inside face of the expansion 
+housing lid, and an external loopback is not required.
+
+.. image:: _static/images/DB9_conversion_circuit.jpg
+   :alt: DB9 conversion circuit
+   :height: 480px
+   :align: center
+
+:ref:`Top of this page <equipment>`
+
+:ref:`Back to the index <index>`
+
 
 .. _bluebox_sensors:
 
@@ -462,6 +505,10 @@ a dissolved oxygen sensor, and an electrical conducitivty sensor.
 * pH: https://www.go-sys.de/en/products/sensors/ph-electrode-swimming_pool/
 * DO: https://www.go-sys.de/en/products/sensors/oxygen-and-temperature-sensor-submersible/
 * EC: https://www.go-sys.de/en/products/sensors/conductivity-temperature-immersion-sensor-small/
+
+:ref:`Top of this page <equipment>`
+
+:ref:`Back to the index <index>`
 
 .. _bluebox_gps:
 
