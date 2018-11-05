@@ -8,14 +8,14 @@
 Table of Contents
 =================
 
-.. image:: _static/images/logo.png
+.. image:: _static/images/intcatch_full_logo_white.jpg
    :alt: intcatch boats
-   :width: 400px
+   :width: 480px
    :align: center
    
 .. image:: _static/images/robot_at_garda.jpg
    :alt: intcatch boats
-   :width: 400px
+   :width: 480px
    :align: center
    
 .. toctree::
