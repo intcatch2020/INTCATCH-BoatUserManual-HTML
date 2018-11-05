@@ -62,7 +62,11 @@ Make sure that the :ref:`breaker in the rear compartment <cable_harness_and_brea
 ESCs do not beep low-high when you plug in the phone
 ----------------------------------------------------
 
-Each :ref:`ESC <escs>` is controlled via a 3-wire cable that connects to the :ref:`e-board <eboard_and_arduino>`.
+The :ref:`ESCs<escs>` use the motors to generate the beeping noises - if the :ref:`breaker<cable_harness_and_breaker>` is open, 
+the ESCs cannot power the motors. Make sure that the breaker is closed and
+that the motor are plugged into the ESCs.
+
+Each ESC is controlled via a 3-wire cable that connects to the :ref:`e-board <eboard_and_arduino>`.
 
 Make sure that these cables are correctly plugged into the e-board.
 First, make sure that the ground, signal, and power wires align with the indicators printed on the e-board.

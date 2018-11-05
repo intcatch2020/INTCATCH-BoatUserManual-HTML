@@ -313,6 +313,15 @@ The :ref:`ESCs <escs>` are not meant to draw more than 80 amps.
    :height: 480px
    :align: center   
 
+When the breaker is open, the red lever arm is angled away from the main 
+body of the breaker. To close it, simply pinch the lever back together with
+the body.
+
+.. image:: _static/images/open_breaker.jpg
+   :alt: open circuit breaker
+   :height: 480px
+   :align: center   
+
 :ref:`Top of this page <equipment>`
 
 :ref:`Back to the index <index>`
